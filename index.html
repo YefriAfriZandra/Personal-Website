@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellow!</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-transparent fixed top-0 left-0 w-full items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">
+                        <img src="img/HeadY.png" alt="" class="w-9 h-9 rounded-full flex justify-center items-center border hover:shadow-lg hover:opacity-80">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="humburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out "></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-med_dark">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-med_dark">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-med_dark">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills" class="text-base text-dark py-2 mx-8 flex group-hover:text-med_dark">Skills</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-med_dark">My Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- 
+
+    <div class="bg-black text-white h-screen overflow-y-auto top-0 z-[100]">
+        <div class="h-full flex flex-col justify-center items-center bg-black">
+            <div class="m-5 py-14 rounded-full bg-black bg-clip-padding backdrop-blur-sm bg-opacity-10 border border-white-opacity-10">
+                <div class="flex flex-col items-center gap-8 px-4">
+                    <a href="#" class="block hover:animate-pulse w-[21px] h-[21px]">
+                        <img src="img/sidebar/1161953_instagram_icon.png" alt="" class="">
+                    </a>
+                    <a href="#" class="block hover:animate-pulse w-[21px] h-[21px]">
+                        <img src="img/sidebar/1161953_instagram_icon.png" alt="" class="">
+                    </a>
+                    <a href="#" class="block hover:animate-pulse w-[21px] h-[21px]">
+                        <img src="img/sidebar/1161953_instagram_icon.png" alt="" class="">
+                    </a>
+                    <a href="#" class="block hover:animate-pulse w-[21px] h-[21px]">
+                        <img src="img/sidebar/1161953_instagram_icon.png" alt="" class="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">
+                        Hello, my name 
+                        <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
+                            Yefri Afri Zandra
+                        </span>
+                    </h1>
+                    <h2 class="font-medium text-med_dark text-lg mb-5 lg:text-2xl">
+                        Student | Software Engineering
+                    </h2>
+                    <p class="font-medium text-low_dark mb-10 leading-relaxed">
+                        I am currently a student majoring in Software Engineering with skills in both web 
+                        development and game development. I am passionate about learning and growing in the 
+                        field of game development, and I strive to constantly improve my abilities in this area. 
+                        My enthusiasm for creating engaging and interactive experiences drives me to explore new 
+                        technologies and techniques in the industry. I am dedicated to applying my knowledge to 
+                        real-world projects and am always eager to take on new challenges.
+                    </p>
+                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80">Contact Me</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-0 lg:mr-0">
+                        <img src="./img/sample.png" alt="Yefri Afri Zandra" class="max-w-full mx-auto">
+                        <span class="absolute -bottom-5 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="400" height="400"  viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#2563eb" d="M54,-55.5C61.2,-46.7,52.3,-23.4,52,-0.4C51.6,22.6,59.8,45.3,52.5,58.4C45.3,71.6,22.6,75.3,8,67.3C-6.7,59.3,-13.4,39.7,-20.9,26.5C-28.5,13.4,-36.9,6.7,-40.9,-4C-45,-14.7,-44.6,-29.4,-37,-38.3C-29.4,-47.1,-14.7,-50,4.3,-54.3C23.4,-58.6,46.7,-64.3,54,-55.5Z" transform="translate(100 100) scale(1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">
+                        About Me
+                    </h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+                        Current Activities
+                    </h2>
+                    <p class="font-medium text-base text-med_dark max-w-xl lg:text-lg">
+                        I am currently a student at the Padang State Polytechnic, pursuing a 
+                        degree in D4 Software Engineering. My academic journey is driven by a 
+                        deep passion for both game development and web development. I thrive 
+                        in creative environments where I can combine my technical skills with 
+                        innovative ideas to build engaging and functional software solutions.
+                    </p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">
+                        Let's Connect!
+                    </h3>
+                    <p class="font-medium text-base text-med_dark mb-6 lg:text-lg">
+                        I'd love to connect with like-minded individuals and share our 
+                        experiences and knowledge. Feel free to follow me on social media 
+                        and let's stay in touch:
+                    </p>
+                    <div class="flex items-center">
+                        <!-- linkedin -->
+                        <a href="https://www.linkedin.com/in/yefri-afri-zandra-489189291/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                            </svg>
+                        </a>
+                        
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com/yefriafri/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30" class="fill-current">
+                                <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                            </svg>
+                        </a>
+                        <!-- facebook -->
+                        <a href="https://www.facebook.com/yefri.afrizandra.3" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                            </svg>
+                        </a>
+                        <!-- discord -->
+                        <a href="https://discord.com/users/661420833549320200" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M 41.625 10.769531 C 37.644531 7.566406 31.347656 7.023438 31.078125 7.003906 C 30.660156 6.96875 30.261719 7.203125 30.089844 7.589844 C 30.074219 7.613281 29.9375 7.929688 29.785156 8.421875 C 32.417969 8.867188 35.652344 9.761719 38.578125 11.578125 C 39.046875 11.867188 39.191406 12.484375 38.902344 12.953125 C 38.710938 13.261719 38.386719 13.429688 38.050781 13.429688 C 37.871094 13.429688 37.6875 13.378906 37.523438 13.277344 C 32.492188 10.15625 26.210938 10 25 10 C 23.789063 10 17.503906 10.15625 12.476563 13.277344 C 12.007813 13.570313 11.390625 13.425781 11.101563 12.957031 C 10.808594 12.484375 10.953125 11.871094 11.421875 11.578125 C 14.347656 9.765625 17.582031 8.867188 20.214844 8.425781 C 20.0625 7.929688 19.925781 7.617188 19.914063 7.589844 C 19.738281 7.203125 19.34375 6.960938 18.921875 7.003906 C 18.652344 7.023438 12.355469 7.566406 8.320313 10.8125 C 6.214844 12.761719 2 24.152344 2 34 C 2 34.175781 2.046875 34.34375 2.132813 34.496094 C 5.039063 39.605469 12.972656 40.941406 14.78125 41 C 14.789063 41 14.800781 41 14.8125 41 C 15.132813 41 15.433594 40.847656 15.621094 40.589844 L 17.449219 38.074219 C 12.515625 36.800781 9.996094 34.636719 9.851563 34.507813 C 9.4375 34.144531 9.398438 33.511719 9.765625 33.097656 C 10.128906 32.683594 10.761719 32.644531 11.175781 33.007813 C 11.234375 33.0625 15.875 37 25 37 C 34.140625 37 38.78125 33.046875 38.828125 33.007813 C 39.242188 32.648438 39.871094 32.683594 40.238281 33.101563 C 40.601563 33.515625 40.5625 34.144531 40.148438 34.507813 C 40.003906 34.636719 37.484375 36.800781 32.550781 38.074219 L 34.378906 40.589844 C 34.566406 40.847656 34.867188 41 35.1875 41 C 35.199219 41 35.210938 41 35.21875 41 C 37.027344 40.941406 44.960938 39.605469 47.867188 34.496094 C 47.953125 34.34375 48 34.175781 48 34 C 48 24.152344 43.785156 12.761719 41.625 10.769531 Z M 18.5 30 C 16.566406 30 15 28.210938 15 26 C 15 23.789063 16.566406 22 18.5 22 C 20.433594 22 22 23.789063 22 26 C 22 28.210938 20.433594 30 18.5 30 Z M 31.5 30 C 29.566406 30 28 28.210938 28 26 C 28 23.789063 29.566406 22 31.5 22 C 33.433594 22 35 23.789063 35 26 C 35 28.210938 33.433594 30 31.5 30 Z"></path>
+                            </svg>
+                        </a>
+                        <!-- tiktok -->
+                        <a href="https://www.tiktok.com/@jkhuna_laguna" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">
+                        Portfolio
+                    </h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">
+                        latest project
+                    </h2>
+                    <p class="font-medium text-md text-med_dark md:text-lg">
+                        Here are some projects I have worked on, both individually and as part of a team.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./img/portfolio/jobfinder.png" alt="Landing Page JobFinder" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        JobFinder
+                    </h3>
+                    <p class="font-medium text-base text-med_dark">
+                        JobFinder is a team-based website project designed to help users search for 
+                        jobs directly on the site.
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./img/portfolio/ZifaLaundry/Input.JPG" alt="Input Page Zifalaundry" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Zifa Laundry
+                    </h3>
+                    <p class="font-medium text-base text-med_dark">
+                        Zifa Laundry is a team project for a desktop application designed to assist small and medium 
+                        enterprises (SMEs) in streamlining their business operations. This application aims to simplify 
+                        the management of laundry services, making tasks more efficient and organized for business owners.
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./img/portfolio/WebLaravel/LandingPage.JPG" alt="Landing Page JobFinder" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Laravel Web
+                    </h3>
+                    <p class="font-medium text-base text-med_dark">
+                        Personal Website Project Using Laravel for Library Loan Management
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./img/portfolio/game/FlappyBird(First_Project).JPG" alt="First Project on Unity" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Flappy Bird
+                    </h3>
+                    <p class="font-medium text-base text-med_dark">
+                        My First Project on Unity
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./img/portfolio/game/Infinit3(onDevelope).JPG" alt="Second Project on Unity" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Infinit3
+                    </h3>
+                    <p class="font-medium text-base text-med_dark">
+                        Endless game (On Develope)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="pt-36 pb-32 bg-slate-700">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class=" mx-auto text-center mb-16">
+                    <h4 class="font-bold text-lg text-secondary">
+                        Skills and Technologies
+                    </h4>
+                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
+                        Skills and technologies I've worked with
+                    </h2>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/bootstrap-5-1.svg" alt="Bootstrap 5">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/dart.svg" alt="Dart">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/icons8-flutter-480.svg" alt="Flutter">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/github-icon-2.svg" alt="Github">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/java-4.svg" alt="Java">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/kotlin-1.svg" alt="Kotlin">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/laravel-2.svg" alt="Laravel">
+                    </a>
+                    <!-- <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/logo-javascript.svg" alt="Javascript">
+                    </a> -->
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/mysql-3.svg" alt="MySQL 5">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="./img/skilltech/tailwind-css-1.svg" alt="TailwindCSS">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">
+                        Contact Me
+                    </h2>
+                    <h3 class="font-bold text-2xl mb-2">
+                        Personal Information
+                    </h3>
+                    <p>
+                        yefriafrizandra@gmail.com
+                    </p>
+                    <p>
+                        +6287899659420
+                    </p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Education
+                    </h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base">Software Engineer, Information Technology</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base">Politeknik Negeri Padang</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Address
+                    </h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base ">Padang, Sumatra Barat</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Go to
+                    </h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-primary">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-primary">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="inline-block text-base hover:text-primary">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="inline-block text-base hover:text-primary">Skills</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
